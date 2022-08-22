@@ -1,6 +1,6 @@
 #in the name of god
 
-adad = int(input('lotfan adad ra vared konid :'))
+adad = int(input('lotfan adad 6 raghami mored nazar ra vared konid :'))
 
 adad_dovom = (adad//10)%10
 adad_panjom = (adad//10000)%10
