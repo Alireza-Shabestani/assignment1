@@ -1,9 +1,9 @@
 #in the name of god 
 
-miles = int(input('sorat mashin re bar hasb miles per hour vared konid : '))
+miles_per_hour = int(input('sorat mashin re bar hasb miles per hour vared konid : '))
 
-kilometer = miles*1.6
+kilometer_per_hour = miles_per_hour*1.6
 
 print('----------------')
-print('sorat mashin bar hasb kilometer per hour =' , kilometer)
+print('sorat mashin bar hasb kilometer per hour =' , kilometer_per_hour)
 
