@@ -13,9 +13,11 @@ while (i < 3) :
     if (username == username_karbar) & (password == password_karbar) :
         print('Dear user , Login was successful...')
         print('------------------------------------')
+        break
     else :
         i = i+1
         print('Dear user , login was failed!!!')
         print('------------------------------------')
-
-print('Your page has been locked , Please try again later....')
+        
+if 3 <= i :
+    print('Your page has been locked , Please try again later....')
