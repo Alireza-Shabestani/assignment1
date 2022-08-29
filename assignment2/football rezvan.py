@@ -29,6 +29,13 @@ elif h3 == 2 :
     draw+=1
 else :
     lose+=1
+h4 = int(input('The result of the Fourth home game :'))
+if h4==1 :
+    win+=1
+elif h4 == 2 :
+    draw+=1
+else :
+    lose+=1
 w1 = int(input('The result of the first away game :'))
 if w1==1 :
     win+=1
@@ -50,6 +57,13 @@ elif w3 == 2 :
     draw+=1
 else :
     lose+=1
+w4 = int(input('The result of the Fourth away game :'))
+if w4==1 :
+    win+=1
+elif w4 == 2 :
+    draw+=1
+else :
+    lose+=1
 
 socer = (win*3) + draw
 
@@ -61,4 +75,4 @@ print()
 
 print(' matches played      win     draw      lose      socer')
 print('---------------------------------------------------------')
-print('       5             ',win,'      ',draw,'       ',lose,'       ',socer)
+print('       8             ',win,'      ',draw,'       ',lose,'       ',socer)
